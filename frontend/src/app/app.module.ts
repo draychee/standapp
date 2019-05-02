@@ -12,6 +12,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { StandupComponent } from './components/standup/standup.component';
 import { ProgressComponent } from './components/progress/progress.component';
 import { AboutComponent } from './components/about/about.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AboutComponent } from './components/about/about.component';
     ContactComponent,
     StandupComponent,
     ProgressComponent,
-    AboutComponent
+    AboutComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

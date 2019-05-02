@@ -60,4 +60,8 @@ export class ApiService {
       return this.http.delete(this.baseurl + '/standup/' + standup.id + '/',
       {headers: this.httpHeaders});
   }
+  registerNewUser(userData): Observable<any> {
+    return this.http.post(this.baseurl + '/users/',
+    userData);
+  }
 }

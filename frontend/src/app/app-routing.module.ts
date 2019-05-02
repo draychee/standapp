@@ -5,6 +5,7 @@ import { AboutComponent } from './components/about/about.component'
 import { StandupComponent } from './components/standup/standup.component'
 import { ProgressComponent } from './components/progress/progress.component'
 import { ContactComponent } from './components/contact/contact.component'
+import { RegisterComponent } from './components/register/register.component'
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'register',
+    component: RegisterComponent
   },
 ];
 
