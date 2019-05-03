@@ -13,6 +13,7 @@ import { StandupComponent } from './components/standup/standup.component';
 import { ProgressComponent } from './components/progress/progress.component';
 import { AboutComponent } from './components/about/about.component';
 import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterComponent } from './components/register/register.component';
     StandupComponent,
     ProgressComponent,
     AboutComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
