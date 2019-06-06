@@ -23,7 +23,7 @@ class Progress(models.Model):
         return self.accomplished
 
 class Standup(models.Model):
-    date = models.DateTimeField('%Y-%d-%b')
+    date = models.DateTimeField(auto_now_add=True)
     def __str__(self):
         return self.date.strftime("%Y-%d-%b")
 
